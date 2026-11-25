@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dear Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="sceneGlow"></div>
+    <div id="particles"></div>
+    <div id="giftLayer"></div>
+    <div id="flowerLayer"></div>
+    <div id="effectLayer"></div>
+
+    <section id="welcome" class="welcome">
+        <div class="welcome-card">
+            <div class="heart">❤️</div>
+            <p class="small-title">A SPECIAL SURPRISE</p>
+            <h1>MY DEAR JERRY</h1>
+            <p>A little world made specially for you</p>
+
+            <input
+                type="password"
+                id="secretCode"
+                placeholder="Enter your secret code"
+                autocomplete="off"
+            >
+
+            <br>
+
+            <button id="enterButton">ENTER MY WORLD ✨</button>
+            <p id="error"></p>
+        </div>
+    </section>
+
+    <main id="surprise" class="hidden">
+
+        <header>
+            <p class="small-title">A SPECIAL WORLD CREATED FOR YOU</p>
+            <h1>MY SPECIAL JERRY ❤️</h1>
+            <p class="subtitle">A beautiful surprise is waiting for you...</p>
+        </header>
+
+        <section class="tom-section">
+            <div class="tom" id="tom">
+                <div class="tom-shadow"></div>
+                <div class="tom-tail"></div>
+
+                <div class="tom-body">
+                    <div class="tom-belly"></div>
+                </div>
+
+                <div class="tom-ear left"></div>
+                <div class="tom-ear right"></div>
+
+                <div class="tom-head">
+                    <div class="tom-eye left">
+                        <div class="pupil"></div>
+                    </div>
+
+                    <div class="tom-eye right">
+                        <div class="pupil"></div>
+                    </div>
+
+                    <div class="tom-cheek left"></div>
+                    <div class="tom-cheek right"></div>
+                    <div class="tom-nose"></div>
+                    <div class="tom-mouth"></div>
+                </div>
+            </div>
+
+            <div class="tom-caption" id="tomCaption">
+                ജെറി, ഞാൻ നിന്നെ സ്നേഹിക്കുന്നു! ❤️
+            </div>
+
+            <button id="repeatVoice" class="voice-button">
+                🔊 Hear Again
+            </button>
+        </section>
+
+        <section class="gift-section">
+            <h2>FIVE LITTLE SURPRISES FOR YOU 🎁</h2>
+            <p id="giftCount">Opened: 0 / 5</p>
+            <p class="gift-instruction">
+                Touch every gift to discover your surprise
+            </p>
+        </section>
+
+        <section id="finalArea" class="hidden">
+            <h2>YOUR BIGGEST SURPRISE IS HERE! ❤️</h2>
+            <p>One last special gift, just for you...</p>
+
+            <button id="bigGift" class="big-gift">
+                🎁
+            </button>
+
+            <p id="finalMessage">Touch the big gift! 💖</p>
+        </section>
+
+        <section id="closingScreen" class="hidden">
+            <div class="closing-heart">💖</div>
+            <h1>THANK YOU, JERRY!</h1>
+            <p>Thank you for visiting my website.</p>
+            <p class="closing-small">
+                This little surprise was made just for you ❤️
+            </p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
